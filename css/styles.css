@@ -1106,6 +1106,92 @@ em { font-style: italic; }
 }
 
 
+/* ---------- Service Areas ---------- */
+.service-areas {
+  padding: 100px 0;
+  background-color: var(--sage-light);
+}
+
+.areas-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 28px;
+}
+
+.area-card {
+  background: var(--white);
+  border-radius: var(--radius-lg);
+  padding: 36px 32px;
+  border: 1px solid var(--border);
+  transition: transform var(--transition), box-shadow var(--transition);
+}
+
+.area-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.08);
+}
+
+.area-card h3 {
+  font-size: 1.3rem;
+  margin-bottom: 12px;
+  color: var(--charcoal);
+}
+
+.area-card p {
+  font-size: 0.95rem;
+  color: var(--muted);
+  margin-bottom: 16px;
+  line-height: 1.6;
+}
+
+.area-suburbs {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 6px 12px;
+  margin-bottom: 20px;
+}
+
+.area-suburbs li {
+  font-size: 0.85rem;
+  color: var(--charcoal-light);
+  position: relative;
+  padding-left: 14px;
+}
+
+.area-suburbs li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 8px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--sage);
+}
+
+.area-link {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--sage);
+  transition: color var(--transition);
+}
+
+.area-link:hover {
+  color: var(--sage-dark);
+}
+
+.areas-grid .animate-in:nth-child(2) { transition-delay: 0.1s; }
+.areas-grid .animate-in:nth-child(3) { transition-delay: 0.2s; }
+
+@media (max-width: 900px) {
+  .areas-grid {
+    grid-template-columns: 1fr;
+    max-width: 560px;
+    margin: 0 auto;
+  }
+}
+
+
 /* ---------- Animations ---------- */
 .animate-in {
   opacity: 0;
@@ -1141,6 +1227,7 @@ em { font-style: italic; }
   .solutions,
   .maintenance,
   .process,
+  .service-areas,
   .faq,
   .contact {
     padding: 72px 0;
