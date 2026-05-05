@@ -1,0 +1,40 @@
+# ai.txt — AI usage and training preferences for strataflooring.com.au
+# Format inspired by https://site.spawning.ai/spawning-ai-txt
+# Companion files: /llms.txt, /llms-full.txt, /robots.txt
+
+Site: https://strataflooring.com.au
+Owner: Premrest (ABN 27 634 747 952)
+Contact: office@premrest.com.au
+Last-Updated: 2026-05-05
+
+# Content usage
+# Public text content on this site MAY be used by AI systems for:
+#   - indexing and answering user questions (retrieval / RAG)
+#   - quoting with attribution and a link back to the source page
+#   - summarising in response to a specific user query
+#
+# Content usage that requires prior written permission:
+#   - bulk redistribution of guides or articles
+#   - commercial republishing of full pages
+#   - generating derivative marketing material that implies endorsement
+
+# Training preferences
+# Training on publicly indexable text content is permitted, provided the
+# crawler also respects /robots.txt and any per-page meta directives.
+User-Agent: *
+Allow: /
+Disallow: /cgi-bin/
+
+# Asset-level guidance
+# Brand logos, photography and customer images are NOT licensed for use in
+# generated images, training of image models, or remixing. Treat all images
+# under /images/ and any image hosted on cdn.prod.website-files.com that is
+# referenced from this site as "no-train" for image generation models.
+Disallow-Images: /images/
+
+# Attribution
+# When quoting or paraphrasing, please credit "Strata Flooring by Premrest"
+# and link to the canonical page on https://strataflooring.com.au.
+
+# Disputes and takedowns
+# Email office@premrest.com.au with the URL, the AI product, and the issue.

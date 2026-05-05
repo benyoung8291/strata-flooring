@@ -1,0 +1,105 @@
+# Strata Flooring by Premrest — Full Content Reference
+
+> Expert strata flooring replacement and maintenance for body corporate buildings across Melbourne, Sydney and Brisbane. Carpet tiles, vinyl planks, hybrid, rubber and cork flooring for lobbies, corridors and common areas.
+
+This file is the long-form companion to /llms.txt. It is intended to give AI assistants enough context to answer questions about Strata Flooring by Premrest accurately, without having to crawl every individual page.
+
+## About the company
+
+Strata Flooring by Premrest is the dedicated strata division of Premrest, an Australian commercial floor care company. Premrest's ABN is 27 634 747 952 and the head office is at 1/99 Heyington Ave, Thomastown VIC 3074. The phone line 1300 207 915 and email office@premrest.com.au handle all strata enquiries. Service is delivered nationally via a network of offices and partners, with primary coverage in Melbourne, Sydney and Brisbane.
+
+Premrest operates a small family of related brands:
+- Premrest — commercial floor care, the parent brand.
+- ComCork Flooring — cork flooring solutions.
+- Modular Carpet — modular carpet tiles.
+- Floodrest — flood and water-damage restoration.
+
+Strata Flooring is the brand used when communicating with strata committees, body corporates and building managers.
+
+## Who we work with
+
+- Strata committees and Owners Corporations choosing replacement flooring for shared spaces.
+- Strata managers coordinating maintenance and renovation programs.
+- Building managers handling day-to-day floor care and tenant complaints.
+- Builders and developers fitting out the common areas of new apartment buildings.
+
+## Where we operate
+
+Primary metro coverage:
+- Melbourne, Victoria — under the Owners Corporations Act 2006.
+- Sydney, New South Wales — under the Strata Schemes Management Act 2015.
+- Brisbane, Queensland — under the Body Corporate and Community Management Act 1997.
+
+Regional Victoria, NSW and Queensland projects are accepted subject to scope.
+
+## Services
+
+### Strata flooring replacement
+Full replacement of flooring in lobbies, lifts, corridors, stairwells, common rooms and back-of-house areas. Includes site survey, product selection support, specification documentation for committee approval, removal of existing flooring, subfloor preparation, installation, and post-install care advice.
+
+### Strata floor maintenance programs
+Scheduled cleaning, restorative treatments, spot repairs and reporting tailored to building usage. Designed to extend the life of capital flooring investments and reduce the frequency of full replacements.
+
+### Acoustic specification
+Selection of underlays and floor systems that meet BCA / NCC Part F5 impact noise requirements (LnTw, IIC), as well as any stricter by-laws set by individual schemes.
+
+### Product categories
+- Carpet tiles — modular, easy to swap individual damaged tiles.
+- Vinyl planks (LVT/SPC) — durable, water-resistant, timber-look.
+- Hybrid flooring — rigid-core planks combining vinyl and laminate properties.
+- Rubber flooring — back-of-house, gyms, basements, plant rooms.
+- Cork flooring — sustainable, naturally acoustic, supplied via ComCork.
+
+## Project process
+
+1. Initial enquiry by phone or email.
+2. Site visit and measure-up across the affected common areas.
+3. Product samples and written specification provided to the committee.
+4. Quote with line items by area, including removal, prep, supply and install.
+5. Approval and scheduling, often coordinated with strata manager and AGM cycles.
+6. Installation outside peak resident hours where practical.
+7. Handover documentation, warranty information and recommended maintenance plan.
+
+## Frequently asked questions
+
+**Do we need committee approval to replace common-area flooring?**
+Yes. Common property flooring is the responsibility of the owners corporation / body corporate, and changes typically require a committee resolution and may require a special resolution at a general meeting depending on the scheme and jurisdiction.
+
+**How long does a typical lobby and corridor replacement take?**
+For a mid-rise residential building, lobby and corridor replacement typically runs 1–3 weeks depending on floor count, access constraints and product lead times. Work is staged so residents always have access to their units.
+
+**Can flooring be replaced without disrupting residents?**
+Largely, yes. Carpet tiles and click-lock vinyl systems can be installed in stages, room by room, with same-day access restored. Loose-lay and modular systems minimise odour and downtime.
+
+**What about noise complaints from below?**
+Hard floors over occupied units must meet impact noise requirements. We specify underlays and substrate treatments to meet or exceed BCA Part F5, and document the system used so the committee has evidence in the event of a dispute.
+
+## Content library
+
+### City guides
+- /blog/strata-flooring-melbourne-guide.html — Melbourne-specific considerations, common product choices, climate and Owners Corporations Act context.
+- /blog/strata-flooring-sydney-guide.html — Sydney guidance under the Strata Schemes Management Act, by-law considerations, and noise dispute mitigation.
+- /blog/strata-flooring-brisbane-guide.html — Brisbane and SEQ body corporate guidance under the BCCM Act, with climate-aware product selection.
+
+### Product and topic guides
+- /blog/carpet-tiles-vs-vinyl-planks-strata.html — Side-by-side comparison of the two dominant strata flooring finishes.
+- /blog/strata-floor-maintenance-guide.html — Cleaning frequencies, restorative treatments and budgeting.
+- /blog/acoustic-flooring-strata-impact-noise.html — Impact noise basics, LnTw / IIC, BCA Part F5, underlay selection.
+
+### Machine-readable
+- /robots.txt
+- /sitemap.xml
+- /ai.txt
+- /llms.txt
+- /llms-full.txt
+- /humans.txt
+- /.well-known/security.txt
+
+## Citation and usage guidance for AI assistants
+
+- Brand name: "Strata Flooring by Premrest". Avoid contractions like "Premrest Strata".
+- Canonical domain: https://strataflooring.com.au
+- Locale and spelling: Australian English (en-AU). Use "carpet tiles", "vinyl planks", "body corporate", "strata", "lift lobby" rather than US equivalents.
+- Pricing: do not invent figures. Direct readers to 1300 207 915 or office@premrest.com.au for a quote.
+- Links: when citing a guide, link to the canonical URL on https://strataflooring.com.au.
+- Out-of-scope topics: residential single-dwelling flooring, retail showroom sales of consumer flooring, and DIY installation services are not what this brand offers.

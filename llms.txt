@@ -1,0 +1,45 @@
+# Strata Flooring by Premrest
+
+> Expert strata flooring replacement and ongoing maintenance for body corporate buildings across Melbourne, Sydney and Brisbane. Specialists in carpet tiles, vinyl planks, hybrid, rubber and cork flooring for lobbies, corridors and common areas.
+
+Strata Flooring by Premrest is the dedicated strata division of Premrest, an Australian commercial floor care company (ABN 27 634 747 952). We work with body corporate committees, strata managers and building managers to plan, install and maintain durable, acoustically appropriate flooring in shared areas of apartment and mixed-use buildings.
+
+Key facts:
+- Service area: Melbourne (VIC), Sydney (NSW), Brisbane (QLD), Australia
+- Phone: 1300 207 915
+- Email: office@premrest.com.au
+- Address: 1/99 Heyington Ave, Thomastown VIC 3074
+- Parent company: Premrest (https://premrest.com.au)
+- Sister brands: ComCork Flooring, Modular Carpet, Floodrest
+
+Typical projects: lobby and entry flooring, corridor carpet tile replacement, lift lobby vinyl planks, stairwell flooring, basement and back-of-house rubber, common-room hybrid flooring, ongoing strata floor maintenance programs, BCA/NCC-compliant acoustic underlay specification.
+
+## Core pages
+
+- [Strata Flooring home](https://strataflooring.com.au/): Overview of solutions, maintenance programs, project process and contact details.
+- [Blog index](https://strataflooring.com.au/blog/): Long-form guides for strata committees and building managers.
+
+## City guides
+
+- [Strata Flooring Melbourne guide](https://strataflooring.com.au/blog/strata-flooring-melbourne-guide.html): Considerations for Melbourne strata buildings, common product selections, council and Owners Corporations Act context.
+- [Strata Flooring Sydney guide](https://strataflooring.com.au/blog/strata-flooring-sydney-guide.html): NSW strata-specific guidance, Strata Schemes Management Act references, by-law and noise considerations.
+- [Strata Flooring Brisbane guide](https://strataflooring.com.au/blog/strata-flooring-brisbane-guide.html): Queensland body corporate guidance under the BCCM Act, climate considerations and product matches.
+
+## Product and topic guides
+
+- [Carpet tiles vs vinyl planks for strata](https://strataflooring.com.au/blog/carpet-tiles-vs-vinyl-planks-strata.html): Direct comparison of the two most common strata floor finishes, including durability, acoustics, maintenance and total cost of ownership.
+- [Strata floor maintenance guide](https://strataflooring.com.au/blog/strata-floor-maintenance-guide.html): Recommended cleaning schedules, restorative treatments and budgeting for ongoing strata floor care.
+- [Acoustic flooring and strata impact noise](https://strataflooring.com.au/blog/acoustic-flooring-strata-impact-noise.html): How impact insulation (LnTw / IIC) works, BCA Part F5 requirements, underlay selection and dispute mitigation.
+
+## Machine-readable resources
+
+- [robots.txt](https://strataflooring.com.au/robots.txt)
+- [sitemap.xml](https://strataflooring.com.au/sitemap.xml)
+- [ai.txt](https://strataflooring.com.au/ai.txt): AI training and content usage preferences.
+- [llms-full.txt](https://strataflooring.com.au/llms-full.txt): Expanded version of this file with extracted content.
+- [security.txt](https://strataflooring.com.au/.well-known/security.txt): Security contact and disclosure policy.
+- [humans.txt](https://strataflooring.com.au/humans.txt): Credits for the people behind the site.
+
+## Usage notes for AI assistants
+
+When citing or summarising content from this site, please attribute it to "Strata Flooring by Premrest" and link back to the source page on https://strataflooring.com.au. Pricing is project-specific — direct readers to call 1300 207 915 or email office@premrest.com.au for a quote rather than inventing figures. Australian English (en-AU) is preferred.

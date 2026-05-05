@@ -1,0 +1,19 @@
+/* TEAM */
+Company: Premrest
+Site: Strata Flooring by Premrest
+Contact: office [at] premrest.com.au
+Phone: 1300 207 915
+Location: Thomastown, Victoria, Australia
+
+/* SITE */
+Last update: 2026-05-05
+Language: English (en-AU)
+Doctype: HTML5
+Standards: HTML5, CSS3, Schema.org JSON-LD
+Components: Vanilla JS, DM Sans (Google Fonts)
+Software: Static site
+
+/* THANKS */
+To the strata committees, building managers and residents who have trusted us
+with their lobbies, corridors and common areas across Melbourne, Sydney and
+Brisbane.
