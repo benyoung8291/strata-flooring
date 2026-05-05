@@ -1042,8 +1042,19 @@ em { font-style: italic; }
 
 @media (min-width: 768px) {
   .footer-inner {
-    grid-template-columns: 1.5fr 1fr 1fr;
+    grid-template-columns: repeat(2, 1fr);
   }
+}
+
+@media (min-width: 1024px) {
+  .footer-inner {
+    grid-template-columns: 1.6fr 1fr 1fr 1fr 1.1fr;
+  }
+}
+
+.footer-bottom-sep {
+  margin: 0 6px;
+  color: rgba(255, 255, 255, 0.25);
 }
 
 .footer-logo {
