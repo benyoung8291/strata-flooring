@@ -232,7 +232,7 @@
           submitBtn.disabled = false;
           submitBtn.textContent = originalText;
           alert(
-            'Something went wrong sending your message. Please try calling us on 1300 207 915 or emailing office@premrest.com.au.'
+            'Something went wrong sending your message. Please try again in a few minutes.'
           );
         });
     });

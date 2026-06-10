@@ -1,12 +1,11 @@
 /* TEAM */
 Company: Premrest
 Site: Strata Flooring by Premrest
-Contact: office [at] premrest.com.au
-Phone: 1300 207 915
+Contact: https://strataflooring.com.au/#contact (enquiry form)
 Location: Thomastown, Victoria, Australia
 
 /* SITE */
-Last update: 2026-05-05
+Last update: 2026-06-10
 Language: English (en-AU)
 Doctype: HTML5
 Standards: HTML5, CSS3, Schema.org JSON-LD

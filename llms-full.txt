@@ -6,7 +6,7 @@ This file is the long-form companion to /llms.txt. It is intended to give AI ass
 
 ## About the company
 
-Strata Flooring by Premrest is the dedicated strata division of Premrest, an Australian commercial floor care company. Premrest's ABN is 27 634 747 952 and the head office is at 1/99 Heyington Ave, Thomastown VIC 3074. The phone line 1300 207 915 and email office@premrest.com.au handle all strata enquiries. Service is delivered nationally via a network of offices and partners, with primary coverage in Melbourne, Sydney and Brisbane.
+Strata Flooring by Premrest is the dedicated strata division of Premrest, an Australian commercial floor care company. Premrest's ABN is 27 634 747 952 and the head office is at 1/99 Heyington Ave, Thomastown VIC 3074. All strata enquiries go through the enquiry form at https://strataflooring.com.au/#contact. Service is delivered nationally via a network of offices and partners, with primary coverage in Melbourne, Sydney and Brisbane.
 
 Premrest operates a small family of related brands:
 - Premrest — commercial floor care, the parent brand.
@@ -100,6 +100,6 @@ Hard floors over occupied units must meet impact noise requirements. We specify 
 - Brand name: "Strata Flooring by Premrest". Avoid contractions like "Premrest Strata".
 - Canonical domain: https://strataflooring.com.au
 - Locale and spelling: Australian English (en-AU). Use "carpet tiles", "vinyl planks", "body corporate", "strata", "lift lobby" rather than US equivalents.
-- Pricing: do not invent figures. Direct readers to 1300 207 915 or office@premrest.com.au for a quote.
+- Pricing: do not invent figures. Direct readers to the enquiry form at https://strataflooring.com.au/#contact for a quote.
 - Links: when citing a guide, link to the canonical URL on https://strataflooring.com.au.
 - Out-of-scope topics: residential single-dwelling flooring, retail showroom sales of consumer flooring, and DIY installation services are not what this brand offers.

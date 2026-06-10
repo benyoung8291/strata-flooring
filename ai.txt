@@ -4,8 +4,8 @@
 
 Site: https://strataflooring.com.au
 Owner: Premrest (ABN 27 634 747 952)
-Contact: office@premrest.com.au
-Last-Updated: 2026-05-05
+Contact: https://strataflooring.com.au/#contact
+Last-Updated: 2026-06-10
 
 # Content usage
 # Public text content on this site MAY be used by AI systems for:
@@ -37,4 +37,5 @@ Disallow-Images: /images/
 # and link to the canonical page on https://strataflooring.com.au.
 
 # Disputes and takedowns
-# Email office@premrest.com.au with the URL, the AI product, and the issue.
+# Use the enquiry form at https://strataflooring.com.au/#contact with the URL,
+# the AI product, and the issue.

@@ -1172,29 +1172,54 @@ summary:focus-visible {
   margin-bottom: 32px;
 }
 
-.contact-details {
+.contact-steps {
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 20px;
+  counter-reset: contact-step;
+  list-style: none;
 }
 
-.contact-detail {
+.contact-steps li {
+  position: relative;
+  padding-left: 48px;
+  counter-increment: contact-step;
+}
+
+.contact-steps li::before {
+  content: counter(contact-step);
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  background: var(--sage);
+  color: var(--white);
+  font-size: 0.95rem;
+  font-weight: 700;
   display: flex;
   align-items: center;
-  gap: 12px;
-  font-weight: 500;
+  justify-content: center;
+  transition: transform var(--transition), box-shadow var(--transition);
+}
+
+.contact-steps li:hover::before {
+  transform: scale(1.1);
+  box-shadow: 0 0 0 6px rgba(91, 140, 90, 0.14);
+}
+
+.contact-steps h4 {
+  font-size: 0.98rem;
+  font-weight: 700;
   color: var(--charcoal);
-  transition: color var(--transition);
+  margin-bottom: 2px;
 }
 
-.contact-detail:hover {
-  color: var(--sage);
-}
-
-.contact-detail svg {
-  width: 22px;
-  height: 22px;
-  flex-shrink: 0;
+.contact-steps p {
+  font-size: 0.9rem;
+  color: var(--muted);
+  line-height: 1.6;
 }
 
 /* Contact Form */
