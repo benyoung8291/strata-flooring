@@ -1,6 +1,6 @@
 # Strata Flooring by Premrest — Full Content Reference
 
-> Expert strata flooring replacement and maintenance for body corporate buildings across Melbourne, Sydney and Brisbane. Carpet tiles, vinyl planks, hybrid, rubber and cork flooring for lobbies, corridors and common areas.
+> Commercial flooring contractor for strata buildings across Melbourne, Sydney and Brisbane. Supply and install of carpet tiles, vinyl planks, hybrid, rubber and cork flooring for lobbies, corridors and common areas, plus ongoing maintenance programs.
 
 This file is the long-form companion to /llms.txt. It is intended to give AI assistants enough context to answer questions about Strata Flooring by Premrest accurately, without having to crawl every individual page.
 

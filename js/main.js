@@ -5,6 +5,13 @@
 (function () {
   'use strict';
 
+  var reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
+
+  function prefersReducedMotion() {
+    return reducedMotion.matches;
+  }
+
+
   // ---------- Mobile Navigation ----------
   const mobileToggle = document.getElementById('mobileToggle');
   const mainNav = document.getElementById('mainNav');
@@ -106,13 +113,79 @@
       var target = document.querySelector(targetId);
       if (target) {
         e.preventDefault();
-        target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        target.scrollIntoView({
+          behavior: prefersReducedMotion() ? 'auto' : 'smooth',
+          block: 'start',
+        });
 
         // Update URL without jump
         if (history.pushState) {
           history.pushState(null, null, targetId);
         }
       }
+    });
+  });
+
+
+  // ---------- FAQ Smooth Expand / Collapse ----------
+  document.querySelectorAll('.faq-item').forEach(function (item) {
+    var summary = item.querySelector('summary');
+    var answer = item.querySelector('.faq-answer');
+    if (!summary || !answer || typeof answer.animate !== 'function') return;
+
+    var animating = false;
+
+    summary.addEventListener('click', function (e) {
+      if (prefersReducedMotion() || animating) {
+        if (animating) e.preventDefault();
+        return;
+      }
+      e.preventDefault();
+
+      if (item.open) {
+        animating = true;
+        var closeAnim = answer.animate(
+          { height: [answer.offsetHeight + 'px', '0px'], opacity: [1, 0] },
+          { duration: 220, easing: 'ease-out' }
+        );
+        closeAnim.onfinish = function () {
+          item.open = false;
+          animating = false;
+        };
+      } else {
+        item.open = true;
+        animating = true;
+        var openAnim = answer.animate(
+          { height: ['0px', answer.offsetHeight + 'px'], opacity: [0, 1] },
+          { duration: 280, easing: 'ease-out' }
+        );
+        openAnim.onfinish = function () {
+          animating = false;
+        };
+      }
+    });
+  });
+
+
+  // ---------- Back to Top ----------
+  var backToTop = document.createElement('button');
+  backToTop.className = 'back-to-top';
+  backToTop.setAttribute('aria-label', 'Back to top');
+  backToTop.innerHTML =
+    '<svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>';
+  document.body.appendChild(backToTop);
+
+  function toggleBackToTop() {
+    backToTop.classList.toggle('show', window.scrollY > 600);
+  }
+
+  window.addEventListener('scroll', toggleBackToTop, { passive: true });
+  toggleBackToTop();
+
+  backToTop.addEventListener('click', function () {
+    window.scrollTo({
+      top: 0,
+      behavior: prefersReducedMotion() ? 'auto' : 'smooth',
     });
   });
 
@@ -146,7 +219,7 @@
             wrapper.innerHTML =
               '<div class="form-success">' +
               '<div class="success-icon">' +
-              '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>' +
+              '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5" pathLength="1"/></svg>' +
               '</div>' +
               '<h3>Got it. We\'ll be in touch.</h3>' +
               '<p>Thanks for reaching out. We\'ll get back to you within 1 business day.</p>' +
