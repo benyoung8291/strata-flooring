@@ -50,6 +50,11 @@
   width: 100%;
   height: 200px;
   object-fit: cover;
+  transition: transform 0.5s var(--ease);
+}
+
+.blog-card:hover .blog-card-image {
+  transform: scale(1.04);
 }
 
 .blog-card-body {
@@ -91,11 +96,12 @@
   font-size: 0.9rem;
   font-weight: 600;
   color: var(--sage);
-  transition: color var(--transition);
+  transition: color var(--transition), transform var(--transition);
 }
 
-.blog-card-link:hover {
+.blog-card:hover .blog-card-link {
   color: var(--sage-dark);
+  transform: translateX(4px);
 }
 
 @media (max-width: 900px) {
