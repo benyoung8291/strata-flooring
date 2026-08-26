@@ -298,6 +298,11 @@ summary:focus-visible {
   color: var(--sage);
 }
 
+.header-phone {
+  font-weight: 600;
+  white-space: nowrap;
+}
+
 /* Animated underline on nav links (not the CTA button) */
 .nav-list a:not(.btn) {
   position: relative;
@@ -1228,6 +1233,20 @@ summary:focus-visible {
   border-radius: var(--radius-xl);
   padding: 36px 32px;
   box-shadow: 0 12px 40px rgba(0, 0, 0, 0.06);
+}
+
+.contact-call {
+  margin: 0 0 20px;
+  font-size: 1.05rem;
+  font-weight: 700;
+}
+
+.contact-call a {
+  color: var(--charcoal);
+}
+
+.contact-call a:hover {
+  color: var(--sage);
 }
 
 .contact-form {
