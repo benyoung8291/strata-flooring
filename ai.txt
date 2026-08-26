@@ -5,6 +5,7 @@
 Site: https://strataflooring.com.au
 Owner: Premrest (ABN 27 634 747 952)
 Contact: https://strataflooring.com.au/#contact
+Phone: 1300 207 915
 Last-Updated: 2026-06-10
 
 # Content usage
