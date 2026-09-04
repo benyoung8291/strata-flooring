@@ -77,7 +77,7 @@ Hard floors over occupied units must meet impact noise requirements. We specify 
 ## Content library
 
 ### City guides
-- /blog/strata-flooring-melbourne-guide.html — Melbourne-specific considerations, common product choices, climate and Owners Corporations Act context.
+- /blog/strata-flooring-melbourne-guide.html — Strata flooring replacement in Melbourne: common-area product choices, climate and Owners Corporations Act context.
 - /blog/strata-flooring-sydney-guide.html — Sydney guidance under the Strata Schemes Management Act, by-law considerations, and noise dispute mitigation.
 - /blog/strata-flooring-brisbane-guide.html — Brisbane and SEQ body corporate guidance under the BCCM Act, with climate-aware product selection.
 
