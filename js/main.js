@@ -214,6 +214,15 @@
       })
         .then(function (response) {
           if (response.ok) {
+            if (typeof gtag === 'function') {
+              gtag('event', 'generate_lead', {
+                form_id: 'xjgjkqbp',
+                form_destination: 'formspree',
+                page_path: window.location.pathname,
+                page_location: window.location.href
+              });
+            }
+
             // Show success message
             var wrapper = form.closest('.contact-form-wrap');
             wrapper.innerHTML =
