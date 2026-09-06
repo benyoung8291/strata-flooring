@@ -82,7 +82,7 @@ Hard floors over occupied units must meet impact noise requirements. We specify 
 - /blog/strata-flooring-brisbane-guide.html — Brisbane and SEQ body corporate guidance under the BCCM Act, with climate-aware product selection.
 
 ### Product and topic guides
-- /blog/carpet-tiles-vs-vinyl-planks-strata.html — Side-by-side comparison of the two dominant strata flooring finishes.
+- /blog/carpet-tiles-vs-vinyl-planks-strata.html — Strata carpet tiles vs vinyl planks: side-by-side comparison of the two dominant strata flooring finishes.
 - /blog/strata-floor-maintenance-guide.html — Cleaning frequencies, restorative treatments and budgeting.
 - /blog/acoustic-flooring-strata-impact-noise.html — Impact noise basics, LnTw / IIC, BCA Part F5, underlay selection.
 
